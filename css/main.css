@@ -1,0 +1,44 @@
+:root {
+  --background-color-light: #E5E5E5;
+  --background-color-lightsecond: #F5F4FA;
+  --background-color-dark: #2F303A;
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color:  #2196F3;
+  --primary-white-color: #ffffff;
+  --foot-address-color: rgba(255, 255, 255, 0.6);
+}
+
+.list {
+  list-style: none;
+}
+/* body*/
+.page {
+  background-color: #E5E5E5;
+  color: #757575;
+}
+
+/* <nav> */
+
+.logo {
+  color: #2196F3;
+}  
+.logo .letter {
+  color: #212121, 700;
+}
+
+/* site-nav */
+
+.site-nav .accentlink {
+  color: #2196F3;
+}
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .accentlink:hover,
+ .site-nav .accentlink:focus {
+  color: #212121;
+}
+
+

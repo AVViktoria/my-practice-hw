@@ -1,128 +1,102 @@
 <!DOCTYPE html>
 <html lang="ru">
-
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Main page</title>
-    <!-- <link rel="import" href=".import/portfolio.html"> -->
-    <link rel="stylesheet" href="./css/main.css">
+    <!-- Projects font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
-  
-  <body class="page">
-  <!-- Шапка сайта Header-->
-  <header class="header">
-    <nav class="navigation">
-      <a class="logo" lang="en" href="./index.html" aria-label="Логотип сайта">Web<span class="accentlink">Studio</span></a>
-      <ul class="list">
-        <li class="item"><a class="link" href="./index.html" ></a>Студия</li>
-        <li class="item"><a class="link" href="./portfolio.html" ></a>Портфолио</li>
-        <li class="item"><a class="link" href="" ></a>Контакты</li>
-      </ul>
-    </nav>
 
-    <ul class="list">
-      <li class="item"><a class="link" href="mailto:info@example.com"></a>info@devstudio.com</li>
-      <li class="item"><a class="link" href="tel:+380991111111"></a>+380961111111</li>
-    </ul>
-  </header> 
-
-  <main>
-    <!--Секция Герой Hero -->
-    <section class="hero">
-      <div class="container">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button class="slider-btn" type="button">Заказать услугу</button>
-      </div>
-    </section>
-
-    <!-- Секция Особенности компании About -->
-    <section class="about">
-      <h2 class="section-title">Особенности компании</h2>
-      <div class="container">
-        <ul class="list">
-          <li class="item">
-            <h3 class="about-title">Внимание к деталям</h3>
-            <p class="uppertitle">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-          </li>
-          <li class="item">
-            <h3 class="about-title">Пунктуальность</h3>
-            <p class="uppertitle">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-          </li>
-          <li class="item">
-            <h3 class="about-title">Планирование</h3>
-            <p class="uppertitle">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-          </li>
-          <li class="item">
-            h3 class="about-title">Современные технологии</h3>
-            <p class="uppertitle">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-          </li>
-        
-        </ul>
-
-      </div>
-    </section>
-
-    <!-- Секция чем мы занимаемся Gallery-->
-    <section class="gallery">
-      <h2 class="section-title">Чем мы занимаемся</h2>
-      <div class="container">
-        <ul class="list">
-          <li class="item"><img class="gallery-img" src="./images/main-page/service/service1.jpg" alt="Верстка" width="370" height="294"/></li>
-          <li class="item"><img class="gallery-img" src="./images/main-page/service/service2.jpg" alt="Дизайн" width="370" height="294"/></li>
-          <li class="item"><img class="gallery-img" src="./images/main-page/service/service3.jpg" alt="Внешнее оформление" width="370" height="294"/></li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- Наша команда Team-->
-    <section class="team">
-      <h2 class="section-title">Наша команда</h2>
-      <div class="container">
-        <ul class="list">
-          <li class="item">
-            <img class="team-img" src="./images/main-page/employees/emloyees1.jpg" alt="Игорь Демьяненко" width="270" height="260"/>
-            <h3 class="team-title">Игорь Демьяненко</h3>
-            <p class="team-position" lang="en">Product Designer</p>
-          </li>
-          <li class="item">
-            <img class="team-img" src="./images/main-page/employees/emloyees2.jpg" alt="Ольга Репина" width="270" height="260"/>
-            <h3 class="team-title">Ольга Репина</h3>
-            <p class="team-position" lang="en">Frontend Developer</p>
-          </li>
-          <li class="item">
-            <img class="team-img" src="./images/main-page/employees/emloyees3.jpg" alt="Николай Тарасов" width="270" height="260"/>
-            <h3 class="team-title">Николай Тарасов</h3>
-            <p class="team-position" lang="en">Marketing</p>
-          </li>
-          <li class="item">
-            <img class="team-img" src="./images/main-page/employees/emloyees4.jpg" alt="Михаил Ермаков" width="270" height="260"/>
-            <h3 class="team-title">Михаил Ермаков</h3>
-            <p class="team-position" lang="en">UI Designer</p>
-          </li>
-        </ul>
-      </div>
-    </section>
-  </main>
-  
-<!-- Подвал сайта Footer -->
+  <!-- Подвал сайта Footer -->
   <footer class="footer">
-    <div class="container">
-      <a class="logo" lang="en" aria-label="Логотип сайта" href="./index.html">Web<span class="letters">Studio</span></a>
-      <address class="address">
-        <ul class="list">
-          <li class="item"><a class="link" href="https://goo.gl/maps/sHWixux6kZh7dcSC8" target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси
-            Украинки, 26</a></li>
-          <li class="item"><a class="link" href="mailto:info@example.com">info@example.com</a></li>
-          <li class="item"><a class="link" href="tel:+380991111111">tel:+38 099 111 11 11</a></li>
-        </ul>
-      </address>
+    <div class="footer__holder container">
+      <div class="footer__title">
+        <p class="footer__upper-title">homemade ice cream made</p>
+        <h2 class="footer__main-title">with passion</h2>
+      </div>
+      <ul class="footer__icons-list socials list">
+        <li class="footer__icons-item socials__item">
+          <a
+            class="footer__icons-link socials__link link"
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Github icon"
+          >
+            <svg class="footer__icons-picture socials__picture" width="18.82px" height="18.82px">
+              <!-- <use href="./images/icons/symbol-defs.svg#icon-github"></use> -->
+              <use href="./images/icons.svg/symbol-defs-opt.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__icons-item socials__item">
+          <a
+            class="footer__icons-link socials__link link"
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Telegram icon"
+          >
+            <svg class="footer__icons-picture socials__picture" width="19.2px" height="14.93px">
+              <!-- <use href="./images/icons/symbol-defs.svg#icon-telegram"></use> -->
+              <use href="./images/icons.svg/symbol-defs-opt.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+
+        <li class="footer__icons-item socials__item">
+          <a
+            class="footer__icons-link socials__link link"
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook icon"
+          >
+            <svg class="footer__icons-picture socials__picture" width="8.8px" height="19.2px">
+              <!-- <use href="./images/icons/symbol-defs.svg#icon-facebook"></use> -->
+              <use href="./images/icons.svg/symbol-defs-opt.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <div class="footer__contacts">
+        <a class="footer__contacts-phone link" href="tel:+610383766284"
+          >Feel free to contact
+          <span class="footer__contacts-phone--accent">+61 (0) 383 766 284</span></a
+        >
+      </div>
+      <div class="footer__sign">
+        <p class="footer__sign-text">&#169; 2022 - IceCream. All Rights Reserved.</p>
+      </div>
     </div>
   </footer>
-</body>
+  <script src="./js/modal.js"></script>
+  <script src="./js/menu.js"></script>
+  <!-- <script>
+      (() => {
+        document.querySelector('.js-speaker-form').addEventListener('.submit', e => {
+          e.preventDefault();
 
+          new FormData(e.currentTarget).forEach((value, e-mail) => console.log('${e-mail}: ${value}'));
+        });
+      })();
+    </script> -->
 </html>
-
-
-
